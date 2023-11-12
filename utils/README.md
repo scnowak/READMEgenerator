@@ -1,11 +1,11 @@
 
-  # gj;odgja;
+  # README Generator Test
 
   [![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  pojgpa[djf
+  How to build a professional README.md file for the project
 
 
   ### Table of Contents
@@ -21,19 +21,19 @@
 
   ## Installation
 
-  osjd[jdf
+  Include installation instructions here
 
 
 
   ## Usage
 
-  f[ojv[pfkjgp
+  Include usage information here
 
 
 
   ## Contributing
 
-  ofjgvajf
+  List any collaborators here: DennisItua@GitHub
 
 
 
@@ -45,17 +45,17 @@
 
   ## Tests
 
-  jozsdjfogaj
+  Add any instructions for your demo/test here
 
 
   ## Questions
   If you have any further questions about the application, please
   use the contact information below:
 
-  - GitHub: oajfgo
+  - GitHub: name@GitHub.com
 
 
-  - Email: aojgaorjdf
+  - Email: name@gmail.com
 
  
   
