@@ -20,43 +20,67 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.projName}
-  // ${renderLicenseSection(data.license)}
-  ## Project Description
-  ${data.projDesc}
- ${data.descMotiv}
- ${data.desWhy}
- ${data.descSolution}
- ${data.descWhatLearn}
-  ###Table of Contents
-  
-      - [Installation](##Installation)
-      - [Usage](##Usage)
-      - [Credits](##Credits)
-      - [License](##License)
-      - [Tests](##Tests)
-      - [Contact](##Contact)
+  return `
+  # ${data.projName}
 
-
-  ##Installation
-  ${data.installInst}
-  ##Usage
-  ${data.usage}
-  ##Credits
-  ${data.collaborators}
-  ##License
   ${renderLicenseSection(data.license)}
-  ##Badges
 
-  ##Features
+  ## Description
 
-  ##How to Contribute
-
-  ##Tests
+  ${data.description}
 
 
+  ### Table of Contents
+  
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
+
+  ## Installation
+
+  ${data.installInst}
+
+
+
+  ## Usage
+
+  ${data.usage}
+
+
+
+  ## Contributing
+
+  ${data.collaborators}
+
+
+
+  ## License
+
+  ${renderLicenseSection(data.license)}
+
+
+
+  ## Tests
+
+  ${data.tests}
+
+
+  ## Questions
+  If you have any further questions about the application, please
+  use the contact information below:
+
+  - GitHub: ${data.github}
+
+
+  - Email: ${data.email}
+
+ 
   `;
 }
 
-module.exports = {generateMarkdown};
+module.exports = generateMarkdown;
