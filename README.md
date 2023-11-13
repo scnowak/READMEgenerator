@@ -73,8 +73,44 @@ Your README might also describe some of the challenges you faced, as well as the
 
 For example:
 
+  Click my video link below:
+
+  https://drive.google.com/file/d/1BSEhbOzDC7cAMxHfVQ6NyTApup2rw8HL/view
 
 
+
+  README files are written in Markdown, and are always named README.md (note that README is in all caps). If you're new to Markdown, refer to the [GitHub guide on mastering markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) or search the internet for Markdown tutorials.
+
+
+## User Story
+
+`````````````
+AS A [input the type of user targeted for this app]
+I WANT [input the application's functionality ]
+SO THAT [input the overall goal of the application here]
+`````````````
+
+## Acceptance Criteria
+
+```md
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+```
+
+  
   ## Contributing
 
   ${data.collaborators}
