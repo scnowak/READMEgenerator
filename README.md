@@ -75,10 +75,7 @@ For example:
 
   Click my video link below:
 
-  https://drive.google.com/file/d/1BSEhbOzDC7cAMxHfVQ6NyTApup2rw8HL/view
 
-
-  https://drive.google.com/file/d/1BSEhbOzDC7cAMxHfVQ6NyTApup2rw8HL/view?usp=sharing
 
 
   README files are written in Markdown, and are always named README.md (note that README is in all caps). If you're new to Markdown, refer to the [GitHub guide on mastering markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) or search the internet for Markdown tutorials.
@@ -118,15 +115,12 @@ repository and upload your screenshot into it. Then, using the
 relative filepath, add the image to your README using the following
 syntax:
 
-  ```md
+  
+![image 1](assets/images/img1.png)
+![image 2](assets/images/img2.png)
+![image 3](assets/images/img3.png)
+![image 4](assets/images/img4.png)
 
-    ![image 1](assets/images/img1.png)
-    ![image 2](./assets/images/img2.png)
-    ![image 3](./assets/images/img3.png)
-    ![image 4](./assets/images/img4.png)
-  ```
-
-Preview:
 
 
 
